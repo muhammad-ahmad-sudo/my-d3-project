@@ -3,7 +3,7 @@ body {
 }
 
 #chart {
-  width: 820px;
+  width: 1000px;
   margin-top: 20px;
 }
 
@@ -16,3 +16,4 @@ body {
   pointer-events: none;
   opacity: 0;
 }
+

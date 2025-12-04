@@ -1,6 +1,6 @@
-const width = 800;
-const height = 450;
-const margin = { top: 40, right: 40, bottom: 50, left: 60 };
+const width = 700;
+const height = 400;
+const margin = { top: 40, right: 40, bottom: 60, left: 60 };
 
 const svg = d3
   .select("#chart")
@@ -133,3 +133,4 @@ d3.csv("data.csv").then(data => {
 
   drawChart("line", data);
 });
+
